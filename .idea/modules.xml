@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/01_hello-big-data/01_hello-big-data.iml" filepath="$PROJECT_DIR$/.idea/modules/01_hello-big-data/01_hello-big-data.iml" group="01_hello-big-data" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/01_hello-big-data/01_hello-big-data_main.iml" filepath="$PROJECT_DIR$/.idea/modules/01_hello-big-data/01_hello-big-data_main.iml" group="01_hello-big-data" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/01_hello-big-data/01_hello-big-data_test.iml" filepath="$PROJECT_DIR$/.idea/modules/01_hello-big-data/01_hello-big-data_test.iml" group="01_hello-big-data" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/intro-big-data.iml" filepath="$PROJECT_DIR$/.idea/modules/intro-big-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/intro-big-data_main.iml" filepath="$PROJECT_DIR$/.idea/modules/intro-big-data_main.iml" group="intro-big-data" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/intro-big-data_test.iml" filepath="$PROJECT_DIR$/.idea/modules/intro-big-data_test.iml" group="intro-big-data" />
+    </modules>
+  </component>
+</project>
