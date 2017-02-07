@@ -3,7 +3,6 @@ version '1.0'
 buildscript {
     ext.kotlin_version = '1.0.6'
     ext.hadoop_version = '2.7.3'
-//    ext.hadoop_version = '2.6.0-cdh5.5.1'
 
     repositories {
         mavenCentral()
@@ -21,7 +20,6 @@ allprojects {
 
     repositories {
         mavenCentral()
-//        maven { url 'https://repository.cloudera.com/artifactory/repo/' }
     }
 
     configurations {
@@ -42,5 +40,4 @@ allprojects {
             }
         }
     }
-
 }
