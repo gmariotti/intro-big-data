@@ -1,6 +1,6 @@
-import extensions.split
-import extensions.toIntWritable
-import extensions.toText
+import common.hadoop.extensions.split
+import common.hadoop.extensions.toIntWritable
+import common.hadoop.extensions.toText
 import org.apache.hadoop.io.IntWritable
 import org.apache.hadoop.io.LongWritable
 import org.apache.hadoop.io.Text

@@ -1,4 +1,4 @@
-package extensions
+package common.hadoop.extensions
 
 import org.apache.hadoop.io.Text
 import java.util.regex.Pattern

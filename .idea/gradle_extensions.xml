@@ -6,11 +6,11 @@
         <project path="$PROJECT_DIR$">
           <extensions>
             <ext name="ext" type="org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension" />
+            <ext name="kapt" type="org.jetbrains.kotlin.gradle.plugin.KaptExtension" />
             <ext name="defaultArtifacts" type="org.gradle.api.internal.plugins.DefaultArtifactPublicationSet" />
             <ext name="reporting" type="org.gradle.api.reporting.ReportingExtension" />
-            <ext name="kapt" type="org.jetbrains.kotlin.gradle.plugin.KaptExtension" />
-            <prop name="kotlin_version">1.0.6</prop>
-            <prop name="hadoop_version">2.6.0-cdh5.5.1</prop>
+            <prop name="kotlin_version" />
+            <prop name="hadoop_version" />
             <task name="components" type="org.gradle.api.reporting.components.ComponentReport">Displays the components produced by root project 'intro-big-data'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="buildDependents">Assembles and tests this project and all projects that depend on it.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of root project 'intro-big-data'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
@@ -57,6 +57,7 @@
             <conf name="default">Configuration for default artifacts.</conf>
             <conf name="kapt" />
             <conf name="kaptTest" />
+            <conf name="provide" />
             <conf name="runtime" visible="false">Runtime dependencies for source set 'main'.</conf>
             <conf name="testCompile" visible="false">Dependencies for source set 'test'.</conf>
             <conf name="testCompileClasspath" visible="false">Compile classpath for source set 'test'.</conf>
@@ -68,9 +69,9 @@
         <project path="$PROJECT_DIR$/01_hello-big-data">
           <extensions parent="$PROJECT_DIR$">
             <ext name="ext" type="org.gradle.api.internal.plugins.DefaultExtraPropertiesExtension" />
+            <ext name="kapt" type="org.jetbrains.kotlin.gradle.plugin.KaptExtension" />
             <ext name="defaultArtifacts" type="org.gradle.api.internal.plugins.DefaultArtifactPublicationSet" />
             <ext name="reporting" type="org.gradle.api.reporting.ReportingExtension" />
-            <ext name="kapt" type="org.jetbrains.kotlin.gradle.plugin.KaptExtension" />
             <task name="components" type="org.gradle.api.reporting.components.ComponentReport">Displays the components produced by project ':01_hello-big-data'. [incubating]&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
             <task name="buildDependents">Assembles and tests this project and all projects that depend on it.&lt;p&gt;&lt;i&gt;Task group: build&lt;i&gt;</task>
             <task name="projects" type="org.gradle.api.tasks.diagnostics.ProjectReportTask">Displays the sub-projects of project ':01_hello-big-data'.&lt;p&gt;&lt;i&gt;Task group: help&lt;i&gt;</task>
@@ -111,6 +112,7 @@
             <conf name="default">Configuration for default artifacts.</conf>
             <conf name="kapt" />
             <conf name="kaptTest" />
+            <conf name="provide" />
             <conf name="runtime" visible="false">Runtime dependencies for source set 'main'.</conf>
             <conf name="testCompile" visible="false">Dependencies for source set 'test'.</conf>
             <conf name="testCompileClasspath" visible="false">Compile classpath for source set 'test'.</conf>

@@ -2,12 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
-      <module name="01_hello-big-data_main" target="1.8" />
-      <module name="01_hello-big-data_test" target="1.8" />
+      <module name="01_hello-big-data_main" target="1.7" />
+      <module name="01_hello-big-data_test" target="1.7" />
       <module name="01_helloworld_main" target="1.8" />
       <module name="01_helloworld_test" target="1.8" />
-      <module name="intro-big-data_main" target="1.8" />
-      <module name="intro-big-data_test" target="1.8" />
+      <module name="hadoop-common_main" target="1.7" />
+      <module name="hadoop-common_test" target="1.7" />
+      <module name="intro-big-data_main" target="1.7" />
+      <module name="intro-big-data_test" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

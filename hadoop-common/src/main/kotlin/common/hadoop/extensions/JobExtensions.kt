@@ -1,4 +1,4 @@
-package extensions
+package common.hadoop.extensions
 
 import org.apache.hadoop.fs.Path
 import org.apache.hadoop.mapreduce.*

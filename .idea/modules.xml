@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/01_hello-big-data/01_hello-big-data.iml" filepath="$PROJECT_DIR$/.idea/modules/01_hello-big-data/01_hello-big-data.iml" group="01_hello-big-data" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/01_hello-big-data/01_hello-big-data_main.iml" filepath="$PROJECT_DIR$/.idea/modules/01_hello-big-data/01_hello-big-data_main.iml" group="01_hello-big-data" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/01_hello-big-data/01_hello-big-data_test.iml" filepath="$PROJECT_DIR$/.idea/modules/01_hello-big-data/01_hello-big-data_test.iml" group="01_hello-big-data" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common.iml" filepath="$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common.iml" group="hadoop-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common_main.iml" group="hadoop-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common_test.iml" group="hadoop-common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/intro-big-data.iml" filepath="$PROJECT_DIR$/.idea/modules/intro-big-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/intro-big-data_main.iml" filepath="$PROJECT_DIR$/.idea/modules/intro-big-data_main.iml" group="intro-big-data" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/intro-big-data_test.iml" filepath="$PROJECT_DIR$/.idea/modules/intro-big-data_test.iml" group="intro-big-data" />

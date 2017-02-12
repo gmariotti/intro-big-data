@@ -1,3 +1,8 @@
 dependencies {
+    compile project(':hadoop-common')
     compile "org.apache.hadoop:hadoop-client:$hadoop_version"
+}
+
+jar {
+    from project(':hadoop-common').sourceSets.main.output.classesDir
 }
