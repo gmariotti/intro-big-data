@@ -10,3 +10,21 @@ one or more files. The **MapperBigData** class maps maps each word to a pair <wo
 What is interesting of this exercise:
 - MapReduce concept using **MapperBigData** and **ReducerBigData**.
 - Kotlin extension functions for **org.apache.hadoop.mapreduce.Job**
+
+In order to run this exercise on an Hadoop machine, the following commands are necessary:
+```
+hdfs dfsadmin -safemode leave
+
+# Removes folders from the previous run
+hdfs dfs -rm -r <input-folder>
+hdfs dfs -rm -r <output-folder>
+
+# Puts input data into hdfs
+hdfs dfs -put <input-file>
+# or for an entire folder
+# hdfs dfs -put <input-folder>
+
+hadoop jar 01_hello-big-data.jar Main <num_reducers> <input-file> <output-folder>
+# or for an entire input folder
+# hadoop jar 01_hello-big-data.jar Main <num_reducers> <input-folder> <output-folder>
+```
