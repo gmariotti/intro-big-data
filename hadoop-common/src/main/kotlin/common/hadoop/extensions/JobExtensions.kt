@@ -89,3 +89,13 @@ inline fun <reified KeyClass : Any, reified ValueClass : Any> Job.reducerOutput(
 	this.outputKeyClass = KeyClass::class.java
 	this.outputValueClass = ValueClass::class.java
 }
+
+inline fun <reified T : Mapper<*, *, KeyClass, ValueClass>, reified KeyClass : Any, reified ValueClass : Any> Job.setMapper() {
+	this.setMapperClass<T>()
+	this.mapOutput<KeyClass, ValueClass>()
+}
+
+inline fun <reified T : Reducer<*, *, KeyClass, ValueClass>, reified KeyClass : Any, reified ValueClass : Any> Job.setReducer(numReducers: Int) {
+	this.setReducerClass<T>(numReducers)
+	this.reducerOutput<KeyClass, ValueClass>()
+}
