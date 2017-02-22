@@ -1,4 +1,4 @@
-import NGramDriver.NGramCounters
+import NGramDriver.NGramCounters.REMOVED_BY_KEYWORD
 import common.hadoop.extensions.toIntWritable
 import org.apache.hadoop.io.IntWritable
 import org.apache.hadoop.io.Text
@@ -18,7 +18,7 @@ class NGramCombiner : Reducer<Text, IntWritable, Text, IntWritable>() {
 		// based on the number of times it appears in the text, otherwise
 		// writes the key and the sum of occurrences
 		if (key.toString().startsWith(keyword)) {
-			context.getCounter(NGramCounters.REMOVED_BY_KEYWORD)
+			context.getCounter(REMOVED_BY_KEYWORD)
 					.increment(values.sumBy(IntWritable::get).toLong())
 		} else {
 			context.write(key, values.sumBy(IntWritable::get).toIntWritable())
