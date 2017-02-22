@@ -15,17 +15,13 @@ class NGramMapper : Mapper<LongWritable, Text, Text, IntWritable>() {
 				.get("numWords")
 				.toInt()
 
-		// FIXME - there should be a better solution
-		(0..words.size).forEach { i ->
-			val word = words[i]
-			if (i + 1 == words.size) return
-			val remaining = words.subList(i + 1, words.size)
-			val builder = StringBuilder()
-					.append(word)
-			(0..remaining.size)
-					.takeWhile { it != numWords }
-					.forEach { builder.append(" ").append(remaining[it]) }
-			context.write(builder.toString().toText(), 1.toIntWritable())
-		}
+		(0 until words.size).map { Pair(it, StringBuilder().append(words[it])) }
+				.onEach<Pair<Int, StringBuilder>, List<Pair<Int, StringBuilder>>> {
+					val (index, builder) = it
+					((index + 1) until words.size).take(numWords - 1)
+							.forEach { builder.append(" ").append(words[it]) }
+					Pair(index, builder)
+				}.map { it.second.toString() }
+				.forEach { context.write(it.toText(), 1.toIntWritable()) }
 	}
 }
