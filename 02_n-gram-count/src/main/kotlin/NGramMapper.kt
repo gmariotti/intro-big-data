@@ -16,7 +16,7 @@ class NGramMapper : Mapper<LongWritable, Text, Text, IntWritable>() {
 				.toInt()
 
 		(0 until words.size).map { Pair(it, StringBuilder().append(words[it])) }
-				.onEach<Pair<Int, StringBuilder>, List<Pair<Int, StringBuilder>>> {
+				.onEach {
 					val (index, builder) = it
 					((index + 1) until words.size).take(numWords - 1)
 							.forEach { builder.append(" ").append(words[it]) }
