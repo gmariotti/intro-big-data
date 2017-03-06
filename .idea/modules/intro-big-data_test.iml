@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="intro-big-data:test" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.type="sourceSet" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="intro-big-data:test" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="com.blogspot.thegmariottiblog" external.system.module.type="sourceSet" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="1">
@@ -13,8 +13,23 @@
                 <option name="moduleKind" value="plain" />
               </K2JSCompilerArguments>
             </option>
+            <option name="k2jvmCompilerArguments">
+              <K2JVMCompilerArguments>
+                <option name="noStdlib" value="true" />
+                <option name="noReflect" value="true" />
+                <option name="moduleName" value="intro-big-data_main" />
+                <option name="jvmTarget" value="1.6" />
+                <option name="addCompilerBuiltIns" value="true" />
+                <option name="loadBuiltInsFromDependencies" value="true" />
+                <option name="languageVersion" value="1.1" />
+                <option name="apiVersion" value="1.1" />
+                <option name="coroutinesWarn" value="true" />
+              </K2JVMCompilerArguments>
+            </option>
             <option name="_commonCompilerArguments">
               <DummyImpl>
+                <option name="languageVersion" value="1.1" />
+                <option name="apiVersion" value="1.1" />
                 <option name="pluginClasspaths">
                   <array />
                 </option>
@@ -26,17 +41,18 @@
             </option>
           </KotlinCompilerInfo>
         </option>
+        <option name="useProjectSettings" value="false" />
         <option name="versionInfo">
           <KotlinVersionInfo>
-            <option name="apiLevel" value="1.0" />
-            <option name="languageLevel" value="1.0" />
+            <option name="apiLevel" value="1.1" />
+            <option name="languageLevel" value="1.1" />
             <option name="targetPlatformName" value="JVM 1.6" />
           </KotlinVersionInfo>
         </option>
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output-test url="file://$MODULE_DIR$/../../build/classes/test" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../src/test">
@@ -47,9 +63,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="intro-big-data_main" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-runtime:1.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="intro-big-data_main" />

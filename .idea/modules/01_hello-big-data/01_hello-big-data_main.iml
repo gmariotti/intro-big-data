@@ -9,10 +9,27 @@
               <CompilerSettings />
             </option>
             <option name="k2jsCompilerArguments">
-              <K2JSCompilerArguments />
+              <K2JSCompilerArguments>
+                <option name="moduleKind" value="plain" />
+              </K2JSCompilerArguments>
+            </option>
+            <option name="k2jvmCompilerArguments">
+              <K2JVMCompilerArguments>
+                <option name="noStdlib" value="true" />
+                <option name="noReflect" value="true" />
+                <option name="moduleName" value="01_hello-big-data_main" />
+                <option name="jvmTarget" value="1.6" />
+                <option name="addCompilerBuiltIns" value="true" />
+                <option name="loadBuiltInsFromDependencies" value="true" />
+                <option name="languageVersion" value="1.1" />
+                <option name="apiVersion" value="1.1" />
+                <option name="coroutinesWarn" value="true" />
+              </K2JVMCompilerArguments>
             </option>
             <option name="_commonCompilerArguments">
               <DummyImpl>
+                <option name="languageVersion" value="1.1" />
+                <option name="apiVersion" value="1.1" />
                 <option name="pluginClasspaths">
                   <array />
                 </option>
@@ -24,17 +41,18 @@
             </option>
           </KotlinCompilerInfo>
         </option>
+        <option name="useProjectSettings" value="false" />
         <option name="versionInfo">
           <KotlinVersionInfo>
-            <option name="apiLevel" value="1.0" />
-            <option name="languageLevel" value="1.0" />
-            <option name="targetPlatformName" value="JVM 1.8" />
+            <option name="apiLevel" value="1.1" />
+            <option name="languageLevel" value="1.1" />
+            <option name="targetPlatformName" value="JVM 1.6" />
           </KotlinVersionInfo>
         </option>
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7" inherit-compiler-output="false">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/../../../01_hello-big-data/build/classes/main" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../01_hello-big-data/src/main">
@@ -44,9 +62,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="hadoop-common_main" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hadoop:hadoop-client:2.7.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.0.6" level="project" />
+    <orderEntry type="module" module-name="hadoop-common_main" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hadoop:hadoop-common:2.7.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hadoop:hadoop-hdfs:2.7.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hadoop:hadoop-mapreduce-client-app:2.7.3" level="project" />
@@ -54,7 +73,7 @@
     <orderEntry type="library" name="Gradle: org.apache.hadoop:hadoop-mapreduce-client-core:2.7.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hadoop:hadoop-mapreduce-client-jobclient:2.7.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hadoop:hadoop-annotations:2.7.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-runtime:1.0.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
     <orderEntry type="library" name="Gradle: commons-cli:commons-cli:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.commons:commons-math3:3.1.1" level="project" />
     <orderEntry type="library" name="Gradle: xmlenc:xmlenc:0.52" level="project" />

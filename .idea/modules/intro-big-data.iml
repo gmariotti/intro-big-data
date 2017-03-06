@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="intro-big-data" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="intro-big-data" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="com.blogspot.thegmariottiblog" external.system.module.version="1.0" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="1">
@@ -9,18 +9,30 @@
               <CompilerSettings />
             </option>
             <option name="k2jsCompilerArguments">
-              <K2JSCompilerArguments />
+              <K2JSCompilerArguments>
+                <option name="moduleKind" value="plain" />
+              </K2JSCompilerArguments>
+            </option>
+            <option name="k2jvmCompilerArguments">
+              <K2JVMCompilerArguments>
+                <option name="jvmTarget" value="1.6" />
+              </K2JVMCompilerArguments>
             </option>
             <option name="_commonCompilerArguments">
-              <DummyImpl />
+              <DummyImpl>
+                <option name="languageVersion" value="1.1" />
+                <option name="apiVersion" value="1.1" />
+                <option name="coroutinesWarn" value="true" />
+              </DummyImpl>
             </option>
           </KotlinCompilerInfo>
         </option>
+        <option name="useProjectSettings" value="false" />
         <option name="versionInfo">
           <KotlinVersionInfo>
-            <option name="apiLevel" value="1.0" />
-            <option name="languageLevel" value="1.0" />
-            <option name="targetPlatformName" value="JVM 1.8" />
+            <option name="apiLevel" value="1.1" />
+            <option name="languageLevel" value="1.1" />
+            <option name="targetPlatformName" value="JVM 1.6" />
           </KotlinVersionInfo>
         </option>
       </configuration>
