@@ -5,3 +5,4 @@ Following the video lectures of Introduction to Big Data course of Polytechnic o
 of the examples and laboratories using Kotlin, and explain them in my blog [thegmariottiblog](https://thegmariottiblog.blogspot.com/).
 
 1) Hello World exercise for Hadoop in [01_hello-big-data](01_hello-big-data).
+2) N-Gram Count exercise for Hadoop in [02_n-gram-count](02_n-gram-count).
