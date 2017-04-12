@@ -15,7 +15,15 @@ import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs
  * @param outputPath The path containing the output folder where to put the results.
  */
 fun Job.addPaths(inputPath: Path, outputPath: Path) {
+	this.addInputPath(inputPath)
+	this.addOutputPath(outputPath)
+}
+
+fun Job.addInputPath(inputPath: Path) {
 	FileInputFormat.addInputPath(this, inputPath)
+}
+
+fun Job.addOutputPath(outputPath: Path) {
 	FileOutputFormat.setOutputPath(this, outputPath)
 }
 
@@ -26,7 +34,10 @@ inline fun <reified T : InputFormat<*, *>, reified K : Mapper<*, *, *, *>> Job.a
 	MultipleInputs.addInputPath(this, path, T::class.java, K::class.java)
 }
 
-inline fun <reified T : OutputFormat<*, *>, reified Key : Any, reified Value : Any> Job.addMultipleOutputPath(namedOutput: String) {
+/**
+ * TODO
+ */
+inline fun <reified T : OutputFormat<*, *>, reified Key : Any, reified Value : Any> Job.addMultipleNamedOutput(namedOutput: String) {
 	MultipleOutputs.addNamedOutput(this, namedOutput, T::class.java, Key::class.java, Value::class.java)
 }
 
