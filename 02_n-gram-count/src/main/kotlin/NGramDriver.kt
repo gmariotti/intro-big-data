@@ -16,7 +16,7 @@ class NGramDriver : Configured(), Tool {
 
 	override fun run(args: Array<out String>): Int {
 		if (args.size != 5) {
-			error("Expected <#reducers> <input_path> <output_path> <n> <keyword>, but received" +
+			error("Expected <#reducers> <input_path> <output_path> <n> <keyword>, but received " +
 					"${args.size} elements.")
 		}
 		val numReducers = args[0].toInt()

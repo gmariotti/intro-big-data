@@ -1,5 +1,6 @@
 rootProject.name = 'intro-big-data'
 include '01_hello-big-data'
 include '02_n-gram-count'
+include '03_sensors-analysis'
 include 'hadoop-common'
 

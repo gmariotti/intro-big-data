@@ -3,7 +3,9 @@ package common.hadoop.extensions
 import org.apache.hadoop.fs.Path
 import org.apache.hadoop.mapreduce.*
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat
+import org.apache.hadoop.mapreduce.lib.input.MultipleInputs
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat
+import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs
 
 /**
  * Extension method for applying FileInputFormat.addInputPath(..) and
@@ -15,6 +17,17 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat
 fun Job.addPaths(inputPath: Path, outputPath: Path) {
 	FileInputFormat.addInputPath(this, inputPath)
 	FileOutputFormat.setOutputPath(this, outputPath)
+}
+
+/**
+ * TODO
+ */
+inline fun <reified T : InputFormat<*, *>, reified K : Mapper<*, *, *, *>> Job.addMultipleInputPath(path: Path) {
+	MultipleInputs.addInputPath(this, path, T::class.java, K::class.java)
+}
+
+inline fun <reified T : OutputFormat<*, *>, reified Key : Any, reified Value : Any> Job.addMultipleOutputPath(namedOutput: String) {
+	MultipleOutputs.addNamedOutput(this, namedOutput, T::class.java, Key::class.java, Value::class.java)
 }
 
 /**

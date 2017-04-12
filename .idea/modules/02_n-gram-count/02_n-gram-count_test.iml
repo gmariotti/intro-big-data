@@ -63,10 +63,10 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="02_n-gram-count_main" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hadoop:hadoop-client:2.7.3" level="project" />
     <orderEntry type="module" module-name="hadoop-common_main" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.1" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hadoop:hadoop-common:2.7.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hadoop:hadoop-hdfs:2.7.3" level="project" />

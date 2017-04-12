@@ -62,9 +62,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hadoop:hadoop-client:2.7.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hadoop:hadoop-common:2.7.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hadoop:hadoop-hdfs:2.7.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hadoop:hadoop-mapreduce-client-app:2.7.3" level="project" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":01_hello-big-data:test" external.linked.project.path="$MODULE_DIR$/../../../01_hello-big-data" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="intro-big-data" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":03_sensors-analysis:test" external.linked.project.path="$MODULE_DIR$/../../../03_sensors-analysis" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="intro-big-data" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="1">
@@ -9,15 +9,13 @@
               <CompilerSettings />
             </option>
             <option name="k2jsCompilerArguments">
-              <K2JSCompilerArguments>
-                <option name="moduleKind" value="plain" />
-              </K2JSCompilerArguments>
+              <K2JSCompilerArguments />
             </option>
             <option name="k2jvmCompilerArguments">
               <K2JVMCompilerArguments>
                 <option name="noStdlib" value="true" />
                 <option name="noReflect" value="true" />
-                <option name="moduleName" value="01_hello-big-data_main" />
+                <option name="moduleName" value="03_sensors-analysis_main" />
                 <option name="jvmTarget" value="1.6" />
                 <option name="addCompilerBuiltIns" value="true" />
                 <option name="loadBuiltInsFromDependencies" value="true" />
@@ -53,16 +51,16 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
-    <output-test url="file://$MODULE_DIR$/../../../01_hello-big-data/build/classes/test" />
+    <output-test url="file://$MODULE_DIR$/../../../03_sensors-analysis/build/classes/test" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../01_hello-big-data/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../../01_hello-big-data/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../01_hello-big-data/src/test/kotlin" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../01_hello-big-data/src/test/resources" type="java-test-resource" />
+    <content url="file://$MODULE_DIR$/../../../03_sensors-analysis/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../03_sensors-analysis/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../03_sensors-analysis/src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../03_sensors-analysis/src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="01_hello-big-data_main" />
+    <orderEntry type="module" module-name="03_sensors-analysis_main" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.hadoop:hadoop-client:2.7.3" level="project" />
     <orderEntry type="module" module-name="hadoop-common_main" />
@@ -150,5 +148,5 @@
     <orderEntry type="library" name="Gradle: com.google.guava:guava:16.0.1" level="project" />
     <orderEntry type="library" name="Gradle: io.netty:netty:3.7.0.Final" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="01_hello-big-data_main" />
+  <component name="TestModuleProperties" production-module="03_sensors-analysis_main" />
 </module>

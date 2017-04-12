@@ -8,6 +8,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/02_n-gram-count/02_n-gram-count.iml" filepath="$PROJECT_DIR$/.idea/modules/02_n-gram-count/02_n-gram-count.iml" group="02_n-gram-count" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/02_n-gram-count/02_n-gram-count_main.iml" filepath="$PROJECT_DIR$/.idea/modules/02_n-gram-count/02_n-gram-count_main.iml" group="02_n-gram-count" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/02_n-gram-count/02_n-gram-count_test.iml" filepath="$PROJECT_DIR$/.idea/modules/02_n-gram-count/02_n-gram-count_test.iml" group="02_n-gram-count" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/03_sensors-analysis.iml" filepath="$PROJECT_DIR$/.idea/modules/03_sensors-analysis.iml" group="03_sensors-analysis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/03_sensors-analysis/03_sensors-analysis_main.iml" filepath="$PROJECT_DIR$/.idea/modules/03_sensors-analysis/03_sensors-analysis_main.iml" group="03_sensors-analysis" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/03_sensors-analysis/03_sensors-analysis_test.iml" filepath="$PROJECT_DIR$/.idea/modules/03_sensors-analysis/03_sensors-analysis_test.iml" group="03_sensors-analysis" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common.iml" filepath="$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common.iml" group="hadoop-common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common_main.iml" group="hadoop-common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common_test.iml" group="hadoop-common" />
