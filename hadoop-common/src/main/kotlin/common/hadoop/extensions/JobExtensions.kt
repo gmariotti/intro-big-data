@@ -37,7 +37,7 @@ inline fun <reified T : InputFormat<*, *>, reified K : Mapper<*, *, *, *>> Job.a
 /**
  * TODO
  */
-inline fun <reified T : OutputFormat<*, *>, reified Key : Any, reified Value : Any> Job.addMultipleNamedOutput(namedOutput: String) {
+inline fun <reified T : OutputFormat<Key, Value>, reified Key : Any, reified Value : Any> Job.addMultipleNamedOutput(namedOutput: String) {
 	MultipleOutputs.addNamedOutput(this, namedOutput, T::class.java, Key::class.java, Value::class.java)
 }
 

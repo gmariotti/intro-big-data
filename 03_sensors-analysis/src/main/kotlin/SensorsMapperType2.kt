@@ -7,7 +7,7 @@ import org.apache.hadoop.mapreduce.lib.output.MultipleOutputs
 
 /*
 Input format is of type:
-<s#id>,<date>,<temp>
+<date>,<temp>,<s#id>
  */
 class SensorsMapperType2 : Mapper<LongWritable, Text, Text, SensorData>() {
 	lateinit var multipleOutputs: MultipleOutputs<Text, SensorData>
@@ -18,9 +18,9 @@ class SensorsMapperType2 : Mapper<LongWritable, Text, Text, SensorData>() {
 
 	override fun map(key: LongWritable, value: Text, context: Context) {
 		val values = value.split(",")
-		val sensorID = values[0]
-		val date = values[1]
-		val temp = values[2].toFloat()
+		val sensorID = values[2]
+		val date = values[0]
+		val temp = values[1].toFloat()
 		val sensorData = SensorData(date, temp)
 
 		val threshold = context.configuration.get(THRESHOLD).toFloat()

@@ -4,15 +4,15 @@ import common.hadoop.extensions.addOutputPath
 import common.hadoop.extensions.setJarByClass
 import org.apache.hadoop.conf.Configured
 import org.apache.hadoop.fs.Path
+import org.apache.hadoop.io.Text
 import org.apache.hadoop.mapreduce.Job
 import org.apache.hadoop.mapreduce.lib.input.KeyValueTextInputFormat
 import org.apache.hadoop.mapreduce.lib.input.TextInputFormat
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat
 import org.apache.hadoop.util.Tool
-import javax.xml.soap.Text
 
-val HIGH_TEMP = "high-temp"
-val LOW_TEMP = "low-temp"
+val HIGH_TEMP = "hightemp"
+val LOW_TEMP = "lowtemp"
 val THRESHOLD = "threshold"
 
 class SensorsDriver : Configured(), Tool {
@@ -38,8 +38,8 @@ class SensorsDriver : Configured(), Tool {
 			addMultipleInputPath<KeyValueTextInputFormat, SensorsMapperType1>(firstInput)
 			addMultipleInputPath<TextInputFormat, SensorsMapperType2>(secInput)
 
-			addMultipleNamedOutput<TextOutputFormat, Text, SensorData>(HIGH_TEMP)
-			addMultipleNamedOutput<TextOutputFormat, Text, SensorData>(LOW_TEMP)
+			addMultipleNamedOutput<TextOutputFormat<Text, SensorData>, Text, SensorData>(HIGH_TEMP)
+			addMultipleNamedOutput<TextOutputFormat<Text, SensorData>, Text, SensorData>(LOW_TEMP)
 			addOutputPath(outputPath)
 
 			numReduceTasks = 0
