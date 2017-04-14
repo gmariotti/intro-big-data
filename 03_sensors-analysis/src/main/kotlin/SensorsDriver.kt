@@ -38,9 +38,9 @@ class SensorsDriver : Configured(), Tool {
 			addMultipleInputPath<KeyValueTextInputFormat, SensorsMapperType1>(firstInput)
 			addMultipleInputPath<TextInputFormat, SensorsMapperType2>(secInput)
 
+			addOutputPath(outputPath)
 			addMultipleNamedOutput<TextOutputFormat<Text, SensorData>, Text, SensorData>(HIGH_TEMP)
 			addMultipleNamedOutput<TextOutputFormat<Text, SensorData>, Text, SensorData>(LOW_TEMP)
-			addOutputPath(outputPath)
 
 			numReduceTasks = 0
 
