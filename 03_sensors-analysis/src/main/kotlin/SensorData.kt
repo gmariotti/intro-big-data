@@ -2,7 +2,7 @@ import org.apache.hadoop.io.Writable
 import java.io.DataInput
 import java.io.DataOutput
 
-data class SensorData(var date: String, var temp: Float) : Writable {
+data class SensorData(var date: String = "", var temp: Float = 0.0F) : Writable {
 	override fun readFields(dataIn: DataInput) {
 		date = dataIn.readUTF()
 		temp = dataIn.readFloat()

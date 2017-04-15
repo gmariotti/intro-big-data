@@ -19,7 +19,7 @@ class SensorsDriver : Configured(), Tool {
 	override fun run(args: Array<out String>): Int {
 		if (args.size != 4) {
 			error("Expected <input_path1> <input_path2> <output_path> <temp_threshold>, but received " +
-					"${args.size} elements.")
+								"${args.size} elements.")
 		}
 
 		val firstInput = Path(args[0])
