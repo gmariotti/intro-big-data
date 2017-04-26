@@ -10,6 +10,8 @@
       <module name="02_n-gram-count_test" target="1.7" />
       <module name="03_sensors-analysis_main" target="1.7" />
       <module name="03_sensors-analysis_test" target="1.7" />
+      <module name="04_potential-friends_main" target="1.7" />
+      <module name="04_potential-friends_test" target="1.7" />
       <module name="hadoop-common_main" target="1.7" />
       <module name="hadoop-common_test" target="1.7" />
       <module name="intro-big-data_main" target="1.7" />

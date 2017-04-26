@@ -21,6 +21,7 @@ allprojects {
 
     repositories {
         mavenCentral()
+        jcenter()
     }
 
     configurations {
@@ -32,6 +33,7 @@ allprojects {
         provide "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
         compile "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
         testCompile group: 'junit', name: 'junit', version: '4.12'
+        testCompile "org.mockito:mockito-core:2.+"
     }
 
     jar {
