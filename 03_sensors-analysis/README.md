@@ -1,7 +1,7 @@
 Sensors Analysis
 ============
 
-Sensors Analysis exercise using Hadoop and Kotlin, explained in [Work In Progess]()
+Sensors Analysis exercise using Hadoop and Kotlin, explained in [this blog post](http://thegmariottiblog.blogspot.com/2017/04/multiple-inputs-outputs-and.html)
 
 The goal of this exercise is to analyze sensors generated data. The data can be in two different formats, while 
 the output is differentiate between sensors reading over or under a certain temperature threshold.

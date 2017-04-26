@@ -9,6 +9,8 @@ import java.util.regex.Pattern
 
 class NGramMapper : Mapper<LongWritable, Text, Text, IntWritable>() {
 
+	private val one = 1.toIntWritable()
+
 	override fun map(key: LongWritable, value: Text, context: Context) {
 		val words = value.split(Pattern.compile("\\W+"))
 		val numWords = context.configuration
@@ -22,6 +24,6 @@ class NGramMapper : Mapper<LongWritable, Text, Text, IntWritable>() {
 							.forEach { builder.append(" ").append(words[it]) }
 					Pair(index, builder)
 				}.map { it.second.toString() }
-				.forEach { context.write(it.toText(), 1.toIntWritable()) }
+				.forEach { context.write(it.toText(), one) }
 	}
 }

@@ -16,7 +16,7 @@ class NGramCombiner : Reducer<Text, IntWritable, Text, IntWritable>() {
 				.get("keyword")
 
 		// if key starts with the keyword, than the counter is increase
-		// b1ased on the number of times it appears in the text, otherwise
+		// based on the number of times it appears in the text, otherwise
 		// writes the key and the sum of occurrences
 		if (key.toString().startsWith(keyword)) {
 			context.getCounter(REMOVED_BY_KEYWORD) += values.sumBy(IntWritable::get).toLong()
