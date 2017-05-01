@@ -14,12 +14,18 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/04_potential-friends.iml" filepath="$PROJECT_DIR$/.idea/modules/04_potential-friends.iml" group="04_potential-friends" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/04_potential-friends/04_potential-friends_main.iml" filepath="$PROJECT_DIR$/.idea/modules/04_potential-friends/04_potential-friends_main.iml" group="04_potential-friends" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/04_potential-friends/04_potential-friends_test.iml" filepath="$PROJECT_DIR$/.idea/modules/04_potential-friends/04_potential-friends_test.iml" group="04_potential-friends" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/06_hello-world-spark.iml" filepath="$PROJECT_DIR$/.idea/modules/06_hello-world-spark.iml" group="06_hello-world-spark" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/06_hello-world-spark/06_hello-world-spark_main.iml" filepath="$PROJECT_DIR$/.idea/modules/06_hello-world-spark/06_hello-world-spark_main.iml" group="06_hello-world-spark" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/06_hello-world-spark/06_hello-world-spark_test.iml" filepath="$PROJECT_DIR$/.idea/modules/06_hello-world-spark/06_hello-world-spark_test.iml" group="06_hello-world-spark" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common.iml" filepath="$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common.iml" group="hadoop-common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common_main.iml" group="hadoop-common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hadoop-common/hadoop-common_test.iml" group="hadoop-common" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/intro-big-data.iml" filepath="$PROJECT_DIR$/.idea/modules/intro-big-data.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/intro-big-data_main.iml" filepath="$PROJECT_DIR$/.idea/modules/intro-big-data_main.iml" group="intro-big-data" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/intro-big-data_test.iml" filepath="$PROJECT_DIR$/.idea/modules/intro-big-data_test.iml" group="intro-big-data" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-common.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-common.iml" group="spark-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-common/spark-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-common/spark-common_main.iml" group="spark-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spark-common/spark-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/spark-common/spark-common_test.iml" group="spark-common" />
     </modules>
   </component>
 </project>

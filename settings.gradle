@@ -1,7 +1,9 @@
 rootProject.name = 'intro-big-data'
 include 'hadoop-common'
+include 'spark-common'
 include '01_hello-big-data'
 include '02_n-gram-count'
 include '03_sensors-analysis'
 include '04_potential-friends'
+include '06_hello-world-spark'
 
