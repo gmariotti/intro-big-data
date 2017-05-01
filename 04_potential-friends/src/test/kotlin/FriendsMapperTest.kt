@@ -7,11 +7,11 @@ import org.mockito.Mockito.mock
 import org.mockito.Mockito.verify
 
 @Suppress("UNCHECKED_CAST")
-class MapperFriendsTest {
+class FriendsMapperTest {
 
 	@Test
 	fun testMap() {
-		val mapper = MapperFriends()
+		val mapper = FriendsMapper()
 		val context = mock(Mapper.Context::class.java)
 
 		mapper.map(LongWritable(10), "user1,user2".toText(),

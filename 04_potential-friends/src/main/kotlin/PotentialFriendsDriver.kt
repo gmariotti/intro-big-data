@@ -25,8 +25,8 @@ class PotentialFriendsDriver : Configured(), Tool {
 			setInputFormatClass<TextInputFormat>()
 			setOutputFormatClass<TextOutputFormat<Text, Text>>()
 
-			setMapperClass<MapperFriends>()
-			setReducerClass<ReducerFriends>(1)
+			setMapperClass<FriendsMapper>()
+			setReducerClass<PotentialFriendsReducer>(1)
 			reducerOutput<Text, Text>()
 
 			return if (waitForCompletion(true)) 0 else 1
