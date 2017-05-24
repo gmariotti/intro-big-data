@@ -3,7 +3,7 @@ N-Gram Count
 
 N-Gram Count exercise using Hadoop and Kotlin, explained in [this blog post](http://thegmariottiblog.blogspot.com/2017/02/combiners-counters-and-properties-in.html)
 
-The goal of this exercise is to count n-words at a time, with n coming from the terminal, 
+The goal of this exercise is tuple count n-words at a time, with n coming from the terminal, 
 filtering out n-grams that start with a user defined keyword, counting how many words have been
 removed.
 
@@ -11,7 +11,7 @@ What it is interesting of this exercise:
 - Use of **NGramCombiner** for reducing network operations.
 - Use of **Properties** and **Counters** for sharing data with Mapper, Reducer and Combiner.
 
-In order to run this exercise on an Hadoop machine, the following commands are necessary:
+In order tuple run this exercise on an Hadoop machine, the following commands are necessary:
 ```
 hdfs dfsadmin -safemode leave
 

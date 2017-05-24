@@ -1,0 +1,6 @@
+1,Action
+2,Adventure
+3,Sci-Fi
+4,Horror
+5,Thriller
+6,Drama
