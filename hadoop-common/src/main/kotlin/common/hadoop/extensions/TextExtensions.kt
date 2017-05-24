@@ -4,6 +4,8 @@ import org.apache.hadoop.io.Text
 import java.util.regex.Pattern
 import kotlin.text.split
 
+fun Text.toIntWritable() = this.toString().toInt().toIntWritable()
+
 /**
  * Extension method for Text class simulating the split(..) method of String class.
  *

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":06_hello-world-spark:test" external.linked.project.path="$MODULE_DIR$/../../../06_hello-world-spark" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="intro-big-data" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":07_sensors-ordering-#40:test" external.linked.project.path="$MODULE_DIR$/../../../07_sensors-ordering-#40" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="intro-big-data" external.system.module.type="sourceSet" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="kotlin-language" name="Kotlin">
       <configuration version="2" platform="JVM 1.6" useProjectSettings="false">
@@ -20,16 +20,16 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
-    <output-test url="file://$MODULE_DIR$/../../../06_hello-world-spark/build/classes/test" />
+    <output-test url="file://$MODULE_DIR$/../../../07_sensors-ordering-#40/build/classes/test" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../../06_hello-world-spark/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../../06_hello-world-spark/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../06_hello-world-spark/src/test/kotlin" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../06_hello-world-spark/src/test/resources" type="java-test-resource" />
+    <content url="file://$MODULE_DIR$/../../../07_sensors-ordering-#40/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../../07_sensors-ordering-#40/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../07_sensors-ordering-#40/src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../07_sensors-ordering-#40/src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="06_hello-world-spark_main" />
+    <orderEntry type="module" module-name="07_sensors-ordering-#40_main" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jre7:1.1.2-4" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.spark:spark-core_2.11:2.1.0" level="project" />
     <orderEntry type="module" module-name="spark-common_main" />
@@ -161,5 +161,5 @@
     <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.4" level="project" />
     <orderEntry type="library" name="Gradle: commons-net:commons-net:3.1" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="06_hello-world-spark_main" />
+  <component name="TestModuleProperties" production-module="07_sensors-ordering-#40_main" />
 </module>

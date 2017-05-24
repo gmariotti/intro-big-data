@@ -12,8 +12,14 @@
       <module name="03_sensors-analysis_test" target="1.7" />
       <module name="04_potential-friends_main" target="1.7" />
       <module name="04_potential-friends_test" target="1.7" />
+      <module name="05_movies-example_main" target="1.7" />
+      <module name="05_movies-example_test" target="1.7" />
       <module name="06_hello-world-spark_main" target="1.7" />
       <module name="06_hello-world-spark_test" target="1.7" />
+      <module name="07_sensors-ordering-#40_main" target="1.7" />
+      <module name="07_sensors-ordering-#40_test" target="1.7" />
+      <module name="08_sensors-top-critical-#41_main" target="1.7" />
+      <module name="08_sensors-top-critical-#41_test" target="1.7" />
       <module name="hadoop-common_main" target="1.7" />
       <module name="hadoop-common_test" target="1.7" />
       <module name="intro-big-data_main" target="1.7" />
