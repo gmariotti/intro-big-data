@@ -20,6 +20,8 @@
       <module name="07_sensors-ordering-#40_test" target="1.7" />
       <module name="08_sensors-top-critical-#41_main" target="1.7" />
       <module name="08_sensors-top-critical-#41_test" target="1.7" />
+      <module name="09_critical-stations-analysis-#43_main" target="1.7" />
+      <module name="09_critical-stations-analysis-#43_test" target="1.7" />
       <module name="hadoop-common_main" target="1.7" />
       <module name="hadoop-common_test" target="1.7" />
       <module name="intro-big-data_main" target="1.7" />

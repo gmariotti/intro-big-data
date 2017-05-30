@@ -9,4 +9,5 @@ include '05_movies-example'
 include '06_hello-world-spark'
 include '07_sensors-ordering-#40'
 include '08_sensors-top-critical-#41'
+include '09_critical-stations-analysis-#43'
 
