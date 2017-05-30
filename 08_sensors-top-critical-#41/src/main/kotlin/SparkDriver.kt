@@ -11,22 +11,21 @@ fun main(args: Array<String>) {
 	val outputPath = args[1]
 	val top = args[2].toInt()
 
-	with(SparkConf()) {
-		setMaster("local")
-		setAppName("Sensors Top Critical - Exercise 41")
+	val conf = SparkConf()
+			.setMaster("local")
+			.setAppName("Sensors Top Critical - Exercise 41")
 
-		JavaSparkContext(this).use {
-			val criticalDays = it.textFile(inputPath)
-					.filter { line -> line.split(",")[2].toFloat() >= 50 }
-					.mapToPair { line ->
-						val values = line.split(",")
-						values[0] tuple 1
-					}.reduceByKey { val1, val2 -> val1 + val2 }
-					.mapToPair { it._2() tuple it._1() }
-					.sortByKey(false)
-					.take(top)
+	JavaSparkContext(conf).use {
+		val criticalDays = it.textFile(inputPath)
+				.filter { line -> line.split(",")[2].toFloat() >= 50 }
+				.mapToPair { line ->
+					val values = line.split(",")
+					values[0] tuple 1
+				}.reduceByKey { val1, val2 -> val1 + val2 }
+				.mapToPair { it._2() tuple it._1() }
+				.sortByKey(false)
+				.take(top)
 
-			it.parallelize(criticalDays).saveAsTextFile(outputPath)
-		}
+		it.parallelize(criticalDays).saveAsTextFile(outputPath)
 	}
 }
